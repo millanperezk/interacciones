@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Gradiente</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+		}
+
+		.container {
+			background: linear-gradient(to right, #6db5df, hotpink);
+			height: 500px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			position: relative;
+		}
+
+		.button {
+			width: 600px;
+			height: 200px;
+			background-color: rgb(71, 67, 82);
+			font-family: monospace;
+			font-size: 2.5rem;
+			color: white;
+			border: none;
+			font-weight: bold;
+		}
+
+		.button:hover {
+			background-color: rgba(71, 67, 82, .3);
+			border: 1px solid white;
+			box-shadow: -7px 7px 5px rgba(71, 67, 82, .3);
+			transition: all .1s linear;
+			margin-left:5px;
+			margin-top:5px;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="container">
+		<button class="button">
+			Conocer más
+		</button>
+	</div>
+</body>
+</html>
